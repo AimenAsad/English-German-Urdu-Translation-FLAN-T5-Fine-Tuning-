@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+accelerate
+sentencepiece
+evaluate
+sacrebleu
+rouge_score
+bitsandbytes
+peft
+streamlit
