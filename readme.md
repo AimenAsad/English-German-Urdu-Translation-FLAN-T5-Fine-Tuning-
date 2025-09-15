@@ -20,15 +20,15 @@ ChrF (character-level F-score, helpful for morphologically rich languages like G
 
 The results are relatively low because:
 
-No access to GPU (training was done on CPU).
-Used small training datasets.
+No access to GPU (training was done on CPU).<br>
+Used small training datasets.<br>
 With larger datasets and GPU training, translation accuracy and grammar correctness can improve significantly.
 
 ### Future Improvements
 
-Train on larger parallel datasets (e.g., OPUS-100 full, WMT).
-Use GPU / TPU to speed up fine-tuning and improve results.
-Explore transformer variants (MarianMT, M2M-100, NLLB).
+Train on larger parallel datasets (e.g., OPUS-100 full, WMT).<br>
+Use GPU / TPU to speed up fine-tuning and improve results.<br>
+Explore transformer variants (MarianMT, M2M-100, NLLB).<br>
 Deploy as an API (Flask/FastAPI) or a Streamlit app for real-time translation.
 
 ### Project Structure
