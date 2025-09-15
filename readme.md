@@ -34,10 +34,10 @@ Deploy as an API (Flask/FastAPI) or a Streamlit app for real-time translation.
 
 ### Project Structure
 translation-project<br>
-│── fine_tuning.py<br>              # Script to fine-tune both English-German & English-Urdu
-│── test.py<br>                     # Script to test translation with example sentences
-│── evaluate.py<br>                  # Script to evaluate results using BLEU, ROUGE, ChrF
-│── requirements.txt<br>            # Dependencies
+│── fine_tuning.py              # Script to fine-tune both English-German & English-Urdu<br>
+│── test.py                    # Script to test translation with example sentences<br> 
+│── evaluate.py                 # Script to evaluate results using BLEU, ROUGE, ChrF<br> 
+│── requirements.txt            # Dependencies<br>
 │── README.md<br> 
 
 ### Why BLEU, ROUGE, and ChrF?
