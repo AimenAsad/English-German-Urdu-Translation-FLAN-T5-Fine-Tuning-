@@ -6,15 +6,14 @@ The work demonstrates how transformer-based models can be adapted for low-resour
 ### What I Did
 
 Fine-tuned FLAN-T5 on:
-English → German (small dataset).
+English → German (small dataset).<br>
 English → Urdu using OPUS-100 dataset.
 
 Created testing and evaluation scripts to check translations.
 
 Used standard translation evaluation metrics:
-BLEU (measures word overlap).
-ROUGE (measures recall & coverage of meaning).
-
+BLEU (measures word overlap).<br>
+ROUGE (measures recall & coverage of meaning).<br>
 ChrF (character-level F-score, helpful for morphologically rich languages like German/Urdu).
 
 ### Results
@@ -42,6 +41,6 @@ translation-project<br>
 
 ### Why BLEU, ROUGE, and ChrF?
 
-BLEU: Good for measuring word-to-word overlap in translations.
-ROUGE: Captures meaning recall (important for checking if the core message is translated).
+BLEU: Good for measuring word-to-word overlap in translations.<br>
+ROUGE: Captures meaning recall (important for checking if the core message is translated).<br>
 ChrF: Works well for morphologically rich languages like German and Urdu, where word forms change often.
